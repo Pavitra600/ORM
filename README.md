@@ -48,8 +48,13 @@ models.py
     class LoanAdmin(admin.ModelAdmin):
         list_display=('loan_id','customer_name','loan_amount','interest_rate','loan_term','disbursement_date')
 
+# ER DIAGRAM
+![Screenshot 2024-12-06 105339](https://github.com/user-attachments/assets/f8331d4b-5a40-49fd-839c-f7f8df34b81e)
+
 # OUTPUT
 Include the screenshot of your admin page.
 ![alt text](<Screenshot 2024-11-23 110653.png>)
+![image](https://github.com/user-attachments/assets/ec704f80-faa9-445e-b3c5-cb1e5af51429)
+
 # RESULT
 Thus the program for creating a database using ORM hass been executed successfully
